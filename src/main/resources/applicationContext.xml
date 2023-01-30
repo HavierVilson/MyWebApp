@@ -11,4 +11,10 @@
           class="ru.haviervilson.webapp.RockMusic">
     </bean>
 
+<!-- DI | Внедрение заыисимостей -->
+    <bean id="musicPlayer"
+          class="ru.haviervilson.webapp.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
