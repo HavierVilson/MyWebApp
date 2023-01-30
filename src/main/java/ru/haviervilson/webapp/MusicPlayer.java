@@ -3,7 +3,7 @@ package ru.haviervilson.webapp;
 public class MusicPlayer {
     private Music music;
 
-    //IoC
+    //IoC | Инверсия управления
     public MusicPlayer(Music music) {
         this.music = music;
     }
